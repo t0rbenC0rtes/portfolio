@@ -1,0 +1,48 @@
+@import "variables";
+@import "reset";
+@import "background";
+@import "decorations";
+@import "animations";
+@import "typo";
+@import "media";
+@import "swiper";
+
+body {
+  background-image: $mainGradient;
+  background-repeat: no-repeat;
+  // max-height: 100vh;
+}
+
+.global-container {
+  max-width: 450px;
+  min-height: 100vh;
+  height: 100%;
+  margin: 0 auto;
+  background-color: $skin;
+}
+
+.header {
+  position: relative;
+  height: 10rem;
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    position: relative;
+    padding: 0.5rem;
+  }
+}
+
+.hero {
+  padding-left: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.footer {
+  height: 6rem;
+}
